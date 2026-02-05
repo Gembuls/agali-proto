@@ -19,7 +19,7 @@ function App() {
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek<i className="ri-arrow-down-fill ri-lg"></i></a>
           </div>
         </div>
-        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[400px] md:ml-auto rounded-2xl animate__animated animate__backInDown animate__delay-4s" loading="lazy"/>
+        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[400px] md:ml-auto rounded-2xl animate__animated animate__zoomInRight animate__delay-4s" loading="lazy"/>
       </div>
 
       {/* TENTANG */}
