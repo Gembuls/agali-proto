@@ -15,8 +15,8 @@ function App() {
           <h1 className="text-5xl/tight font-bold mb-6">Hi, nama saya Agali.</h1>
           <p className="text-base/loose mb-6 opacity-50">Saya mempunyain ketertarikan dalam bidang Teknologi terutama Pemrograman dan Design, Ketertarikan dalam bidang ini sudah berlangsung lebih dari 4 Tahun Terakhir.</p>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a href="#" className="bg-blue-700 p-4 rounded-2xl hover:bg-blue-600">Download CV<i className="ri-download-line ri-lg"></i></a>
-            <a href="#" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek<i className="ri-arrow-down-fill ri-lg"></i></a>
+            <a href="#kontak" className="bg-blue-700 p-4 rounded-2xl hover:bg-blue-600">Download CV<i className="ri-download-line ri-lg"></i></a>
+            <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek<i className="ri-arrow-down-fill ri-lg"></i></a>
           </div>
         </div>
         <img src={DataImage.HeroImage} alt="Hero Image" className="w-[400px] md:ml-auto rounded-2xl animate__animated animate__backInDown animate__delay-4s" loading="lazy"/>
